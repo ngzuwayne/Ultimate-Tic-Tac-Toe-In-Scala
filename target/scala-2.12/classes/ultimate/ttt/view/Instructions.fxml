@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Image.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ultimate.ttt.view.InstructionsController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="24.0" layoutY="26.0" text="HOW TO PLAY ULTIMATE TIC TAC TOE?" AnchorPane.bottomAnchor="333.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font name="HeadLineA Regular" size="35.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="41.0" prefWidth="101.0" text="Back " AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="249.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Hei Regular" size="13.0" />
+         </font></Button>
+      <TextFlow layoutX="17.0" layoutY="159.0" prefHeight="41.0" prefWidth="568.0" textAlignment="CENTER" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="159.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Imagine a big tic-tac-toe board. But instead of empty spaces, each square of this big board is actually a smaller tic-tac-toe board." textAlignment="CENTER" wrappingWidth="565.40478515625">
+               <font>
+                  <Font name="Hei Regular" size="16.0" />
+               </font>
+            </Text>
+         </children></TextFlow>
+      <TextFlow layoutX="17.0" layoutY="213.0" prefHeight="74.0" prefWidth="568.0" textAlignment="CENTER" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="213.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Players take turns placing their marks (X or O) on the smaller boards. Your move on a small board dictates your opponent's next board. For example, if you play in the top-left corner of a small board, your opponent must play somewhere on the top-left big board." textAlignment="CENTER" wrappingWidth="577.3287963867188">
+               <font>
+                  <Font name="Hei Regular" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <TextFlow layoutX="16.0" layoutY="293.0" prefHeight="17.0" prefWidth="568.0" textAlignment="CENTER" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="293.0" />
+      <TextFlow layoutX="16.0" layoutY="345.0" prefHeight="41.0" prefWidth="568.0" textAlignment="CENTER" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="345.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="It's like playing tic-tac-toe inside tic-tac-toe! Additionally, whenever a player wins on a small board, they get an extra move!" textAlignment="CENTER" wrappingWidth="577.3287963867188">
+               <font>
+                  <Font name="Hei Regular" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <Text layoutX="12.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The first player to get three of their marks in a row on the big board wins!" textAlignment="CENTER" wrappingWidth="577.3287963867188">
+         <font>
+            <Font name="Hei Regular" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
