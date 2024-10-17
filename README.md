@@ -8,6 +8,6 @@ However, where you place your mark determines where your opponent places their n
 
 I have a YouTube video, addressed to my lecturer, explaining my program: https://youtu.be/2XCmaEIh5Hg 
 
-I also brought this from a private repository under my university onto this repository I created for myself. 
+I brought this over from a private repository under my university onto this public repository I created for myself. 
 
-I did this after an interview I had for my internship. 
+I decided to do this after an interview I had for my internship. 
