@@ -1,6 +1,6 @@
 # Ultimate Tic Tac Toe in Scala
 
-This was another university project I completed in my second year, circa August 2024. 
+This was a university project I completed in my second year, circa August 2024. 
 
 Ultimate tic tac toe consists of nine independant tic tac toe boards on another 3x3 grid. 
 
