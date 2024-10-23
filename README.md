@@ -2,6 +2,8 @@
 
 This was a university project I completed in my second year, circa August 2024. 
 
+This was done specifically in ScalaFX and Scene Builder.
+
 Ultimate tic tac toe consists of nine independant tic tac toe boards on another 3x3 grid. 
 
 However, where you place your mark determines where your opponent places their next mark. 
