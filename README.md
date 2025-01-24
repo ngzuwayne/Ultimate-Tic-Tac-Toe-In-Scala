@@ -1,4 +1,4 @@
-# Ultimate Tic Tac Toe in Scala
+# Ultimate Tic-Tac-Toe in Scala
 
 This was a university project I completed in my second year, circa August 2024. 
 
